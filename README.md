@@ -13,3 +13,7 @@ Scripts that fetch data (or receive postbacks) from multiple sources and funnel 
 ssh root@107.170.73.119
 Ask Jason for the password
 Repository is cloned into /opt/everybody-plays-pokemon
+
+# Service Details
+
+- Datasift: jberlinsky@gmail.com / Ask Jason
