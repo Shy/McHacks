@@ -7,7 +7,7 @@ apt-get install ffmpeg xvfb firefox alsa-utils imagemagick libavcodec-extra-53 -
 ln -s /opt/everybody-plays-pokemon/streaming/xvfb /etc/init.d/xvfb
 chmod +x /etc/init.d/xvfb
 /etc/init.d/xvfb start
-DISPLAY=:5 nohup firefox http://www.youtube.com &
+DISPLAY=:5 nohup firefox file:///opt/everybody-plays-pokemon/GameBoy-Online/index.xhtml &
 
 
 # TO STREAM
