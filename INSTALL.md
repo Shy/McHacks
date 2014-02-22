@@ -5,7 +5,10 @@ cd /opt && git clone git@github.com:Shy/McHacks.git everybody-plays-pokemon
 cd everybody-plays-pokemon && bundle install
 apt-get install ffmpeg xvfb firefox alsa-utils imagemagick libavcodec-extra-53 -y
 ln -s /opt/everybody-plays-pokemon/streaming/xvfb /etc/init.d/xvfb
-chmod +x /etc/init.d/xvfb/etc/init.d/xvfb start
+chmod +x /etc/init.d/xvfb
+/etc/init.d/xvfb start
 DISPLAY=:5 nohup firefox http://www.youtube.com &
-DISPLAY=:5 import -window root screenshot.png
 
+
+# TO STREAM
+./streaming/stream.sh -> http://www.twitch.tv/jberlinsky
