@@ -4,7 +4,9 @@ require 'json'
 
 redis = Redis.new(timeout: 0)
 
+puts "Getting ready to subscribe"
 redis.subscribe('tweets') do |on|
+  puts "Loop"
   on.subscribe do |channel, subscriptions|
     puts "Subscribed to ##{channel} (#{subscriptions} subscriptions)"
   end
