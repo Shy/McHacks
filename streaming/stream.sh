@@ -6,7 +6,9 @@
 # gist created by brodul
  
 INRES="1080x1440" # input resolution (The resolution of the program you want to stream!)
-OUTRES="1280x1008" # Output resolution (The resolution you want your stream to be at)
+#OUTRES="800x720" # Output resolution (The resolution you want your stream to be at)
+OUTRES="960x864" # Output resolution (The resolution you want your stream to be at)
+# Multiple of 160x144
 
 FPS="30" # target FPS
 QUAL="medium" 
