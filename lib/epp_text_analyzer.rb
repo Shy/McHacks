@@ -13,13 +13,13 @@ class EppTextAnalyzer
   def self.analyze_with_timestamp_and_source(text, timestamp, source)
     # Count the occurrences of 'a', 'b', 'up', 'down', 'left', 'right', 'start', and 'stop'
     text = clean(text)
-    response = {}
+    counts = {}
     KEYS.each do |key|
-      response.merge!(key.to_sym => text.scan(key).length)
+      counts.merge!(key.to_sym => text.scan(key).length)
     end
-    response.merge!(original_content: text)
+    max = counts.values.max
+    response = Hash[counts.select { |k, v| v == max}]
     response.merge!(timestamp: timestamp)
-    response.merge!(source: source)
     response
   end
 
