@@ -1,0 +1,23 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bson (1.6.4)
+    bson_ext (1.6.1)
+      bson (~> 1.6.1)
+    datasift (2.1.0)
+      rest-client (~> 1.6.3)
+      yajl-ruby (~> 1.1.0)
+    mime-types (2.1)
+    mongo (1.6.4)
+      bson (~> 1.6.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  datasift
+  mongo
