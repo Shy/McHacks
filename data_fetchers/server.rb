@@ -1,3 +1,3 @@
 require 'sinatra'
 
-require 'data_fetchers/twitter.rb'
+require_relative './twitter.rb'
