@@ -6,7 +6,8 @@
 # gist created by brodul
  
 INRES="1080x1440" # input resolution (The resolution of the program you want to stream!)
-OUTRES="800x600" # Output resolution (The resolution you want your stream to be at)
+OUTRES="1280x1008" # Output resolution (The resolution you want your stream to be at)
+
 FPS="30" # target FPS
 QUAL="medium" 
 # one of the many FFMPEG preset on (k)ubuntu found in /usr/share/ffmpeg
