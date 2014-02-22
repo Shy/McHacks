@@ -20,5 +20,5 @@ avconv \
 -f x11grab -s $INRES -r "$FPS" -i :0.0 \
 -f alsa -ac 2 -i pulse \
 -vcodec libx264 -s $OUTRES -preset $QUAL \
--acodec libmp3lame -ar 44100 -threads 6 -qscale 3 -b 712000 -bufsize 512k \
+-threads 6 -qscale 3 -b 712000 -bufsize 512k \
 -f flv "rtmp://live.justin.tv/app/$STREAM_KEY"
