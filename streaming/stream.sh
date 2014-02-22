@@ -5,7 +5,7 @@
  
 # gist created by brodul
  
-INRES="1080x1440" # input resolution (The resolution of the program you want to stream!)
+INRES="1024x768" # input resolution (The resolution of the program you want to stream!)
 OUTRES="800x720" # Output resolution (The resolution you want your stream to be at)
 # Multiple of 160x144
 
