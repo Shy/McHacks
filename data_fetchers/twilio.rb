@@ -1,4 +1,4 @@
 post '/twilio' do
-  puts params.inspect
+  EppResponseHandler.handle!(params['Body'], 'twilio')
   {}.to_json
 end

@@ -10,7 +10,7 @@ class EppTextAnalyzer
     stop
   ]
 
-  def self.analyze_with_timestamp(text, timestamp)
+  def self.analyze_with_timestamp_and_source(text, timestamp, source)
     # Count the occurrences of 'a', 'b', 'up', 'down', 'left', 'right', 'start', and 'stop'
     clean!(text)
     response = {}
@@ -19,6 +19,7 @@ class EppTextAnalyzer
     end
     response.merge!(original_content: text)
     response.merge!(timestamp: timestamp)
+    response.merge!(source: source)
     response
   end
 
