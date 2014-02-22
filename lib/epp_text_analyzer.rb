@@ -10,20 +10,22 @@ class EppTextAnalyzer
     stop
   ]
 
-  def self.analyze_with_timestamp(text, timestamp)
+  def self.analyze_with_timestamp_and_source(text, timestamp, source)
     # Count the occurrences of 'a', 'b', 'up', 'down', 'left', 'right', 'start', and 'stop'
-    clean!(text)
-    response = {}
+    text = clean(text)
+    counts = {}
     KEYS.each do |key|
-      response.merge!(key.to_sym => text.count(key))
+      counts.merge!(key.to_sym => text.scan(key).length)
     end
-    response.merge!(original_content: text)
-    response.merge!(timestamp: timestamp)
-    response
+    max = counts.values.max
+    {
+      action: Hash[counts.select { |k, v| v == max}].keys.first.to_s,
+      timestamp: timestamp
+    }
   end
 
-  def self.clean!(text)
+  def self.clean(text)
     # Clean up the text to be analyzed in place
-    text.downcase!.gsub!(" #everybodyplayspokemon", '')
+    text.downcase.gsub(" #everybodyplayspokemon", '')
   end
 end
