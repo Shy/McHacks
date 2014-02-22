@@ -1,3 +1,5 @@
+require_relative 'epp_text_analyzer.rb'
+
 class EppResponseHandler
   def handle!(text, source)
     FirebaseClient.add_message(
