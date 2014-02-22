@@ -1,6 +1,4 @@
 post '/twitter' do
-  puts params.inspect
-  if params == {}
-    { success: true }.to_json
-  end
+  EppResponseHandler.handle!(params['text'], 'twitter')
+  {}.to_json
 end

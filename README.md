@@ -22,3 +22,4 @@ Repository is cloned into /opt/everybody-plays-pokemon
 - Firebase: nwkotto@umich.edu / Ask Otto
 - Twilio: jberlinsky@gmail.com / Ask Jason. Phone number: (213) 973-4390
 - Sendgrid: jberlinsky@gmail.com / Ask Jason. Email *@everyoneplayspokemon.com
+- Twitter: jberlinsky+everyoneplayspokemon@gmail.com / pokemon. Username: pokemonforall
