@@ -12,7 +12,7 @@ class EppTextAnalyzer
 
   def self.analyze_with_timestamp_and_source(text, timestamp, source)
     # Count the occurrences of 'a', 'b', 'up', 'down', 'left', 'right', 'start', and 'stop'
-    clean!(text)
+    text = clean(text)
     response = {}
     KEYS.each do |key|
       response.merge!(key.to_sym => text.count(key))
@@ -23,8 +23,8 @@ class EppTextAnalyzer
     response
   end
 
-  def self.clean!(text)
+  def self.clean(text)
     # Clean up the text to be analyzed in place
-    text.downcase!.gsub!(" #everybodyplayspokemon", '')
+    text.downcase.gsub(" #everybodyplayspokemon", '')
   end
 end
