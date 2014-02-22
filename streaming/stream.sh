@@ -6,7 +6,7 @@
 # gist created by brodul
  
 INRES="1280x1024" # input resolution (The resolution of the program you want to stream!)
-OUTRES="1280x1024" # Output resolution (The resolution you want your stream to be at)
+OUTRES="1280x720" # Output resolution (The resolution you want your stream to be at)
 FPS="30" # target FPS
 QUAL="medium" 
 # one of the many FFMPEG preset on (k)ubuntu found in /usr/share/ffmpeg
@@ -20,5 +20,5 @@ avconv \
 -f x11grab -s $INRES -r "$FPS" -i :0.0 \
 -f alsa -ac 2 -i pulse \
 -vcodec libx264 -s $OUTRES -preset $QUAL \
--acodec libmp3lame -ar 44100 -threads 6 -qscale 3 -b 712000 -bufsize 512k \
+-threads 6 -qscale 3 -b 712000 -bufsize 512k \
 -f flv "rtmp://live.justin.tv/app/$STREAM_KEY"
