@@ -15,7 +15,7 @@ class EppTextAnalyzer
     text = clean(text)
     response = {}
     KEYS.each do |key|
-      response.merge!(key.to_sym => text.count(key))
+      response.merge!(key.to_sym => text.scan(key).length)
     end
     response.merge!(original_content: text)
     response.merge!(timestamp: timestamp)
