@@ -10,20 +10,11 @@ describe EppTextAnalyzer do
     context 'when the result is from a random tweet' do
       let(:text) { "Abra cadabra" }
       let(:source) { "Twitter" }
-      it 'should count the as properly' do
-        subject[:a].should == 5
+      it 'should determine the appropriate response' do
+        subject[:action].should == 'a'
       end
-
-      it 'should count the bs properly' do
-        subject[:b].should == 2
-      end
-
-      it 'should not have any "start" strings' do
-        subject[:start].should == 0
-      end
-
-      it 'should include the source' do
-        subject[:source].should == 'Twitter'
+      it 'should include the timestamp' do
+        subject[:timestamp].should == timestamp
       end
     end
   end

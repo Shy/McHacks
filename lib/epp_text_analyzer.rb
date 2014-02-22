@@ -18,9 +18,10 @@ class EppTextAnalyzer
       counts.merge!(key.to_sym => text.scan(key).length)
     end
     max = counts.values.max
-    response = Hash[counts.select { |k, v| v == max}]
-    response.merge!(timestamp: timestamp)
-    response
+    {
+      action: Hash[counts.select { |k, v| v == max}].keys.first.to_s,
+      timestamp: timestamp
+    }
   end
 
   def self.clean(text)
