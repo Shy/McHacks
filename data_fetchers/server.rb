@@ -1,3 +1,3 @@
 require 'sinatra'
 
-require 'twitter'
+require 'data_fetchers/twitter'
