@@ -11,7 +11,7 @@
 #.  /etc/init.d/functions
 XVFB_OUTPUT=/tmp/Xvfb.out
 XVFB=/usr/bin/X11/Xvfb
-XVFB_OPTIONS=":5 -screen 0 1024x768x24 -fbdir /var/run"
+XVFB_OPTIONS=":5 -screen 0 1024x768x16 -fbdir /var/run"
 
 start()  {
 echo -n "Starting : X Virtual Frame Buffer "
