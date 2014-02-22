@@ -1,5 +1,6 @@
 post '/twitter' do
   puts params.inspect
-  content_type :json
-  { status: :ok }.to_json
+  if params == {}
+    { success: 200 }.to_json
+  end
 end
