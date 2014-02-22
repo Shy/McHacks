@@ -1,0 +1,11 @@
+.DS_Store
+
+js/.DS_Store
+
+css/.DS_Store
+
+js/other/.DS_Store
+
+*.gb
+*.swp
+
