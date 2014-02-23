@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBFB586A18B9785500A408E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586918B9785500A408E7 /* Foundation.framework */; };
+		CBFB586C18B9785500A408E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586B18B9785500A408E7 /* CoreGraphics.framework */; };
+		CBFB586E18B9785500A408E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586D18B9785500A408E7 /* UIKit.framework */; };
+		CBFB587418B9785600A408E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBFB587218B9785600A408E7 /* InfoPlist.strings */; };
+		CBFB587618B9785600A408E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB587518B9785600A408E7 /* main.m */; };
+		CBFB587A18B9785600A408E7 /* EPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB587918B9785600A408E7 /* EPPAppDelegate.m */; };
+		CBFB587D18B9785600A408E7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFB587B18B9785600A408E7 /* Main_iPhone.storyboard */; };
+		CBFB588018B9785600A408E7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFB587E18B9785600A408E7 /* Main_iPad.storyboard */; };
+		CBFB588318B9785600A408E7 /* EPPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB588218B9785600A408E7 /* EPPMainViewController.m */; };
+		CBFB588618B9785600A408E7 /* EPPFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB588518B9785600A408E7 /* EPPFlipsideViewController.m */; };
+		CBFB588818B9785600A408E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFB588718B9785600A408E7 /* Images.xcassets */; };
+		CBFB588F18B9785600A408E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB588E18B9785600A408E7 /* XCTest.framework */; };
+		CBFB589018B9785600A408E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586918B9785500A408E7 /* Foundation.framework */; };
+		CBFB589118B9785600A408E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586D18B9785500A408E7 /* UIKit.framework */; };
+		CBFB589918B9785600A408E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBFB589718B9785600A408E7 /* InfoPlist.strings */; };
+		CBFB589B18B9785600A408E7 /* EveryonePlaysPokemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB589A18B9785600A408E7 /* EveryonePlaysPokemonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFB589218B9785600A408E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFB585E18B9785500A408E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFB586518B9785500A408E7;
+			remoteInfo = EveryonePlaysPokemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBFB586618B9785500A408E7 /* EveryonePlaysPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryonePlaysPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFB586918B9785500A408E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBFB586B18B9785500A408E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBFB586D18B9785500A408E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBFB587118B9785500A408E7 /* EveryonePlaysPokemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EveryonePlaysPokemon-Info.plist"; sourceTree = "<group>"; };
+		CBFB587318B9785600A408E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBFB587518B9785600A408E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBFB587718B9785600A408E7 /* EveryonePlaysPokemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EveryonePlaysPokemon-Prefix.pch"; sourceTree = "<group>"; };
+		CBFB587818B9785600A408E7 /* EPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPAppDelegate.h; sourceTree = "<group>"; };
+		CBFB587918B9785600A408E7 /* EPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPAppDelegate.m; sourceTree = "<group>"; };
+		CBFB587C18B9785600A408E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CBFB587F18B9785600A408E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CBFB588118B9785600A408E7 /* EPPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPMainViewController.h; sourceTree = "<group>"; };
+		CBFB588218B9785600A408E7 /* EPPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPMainViewController.m; sourceTree = "<group>"; };
+		CBFB588418B9785600A408E7 /* EPPFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPFlipsideViewController.h; sourceTree = "<group>"; };
+		CBFB588518B9785600A408E7 /* EPPFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPFlipsideViewController.m; sourceTree = "<group>"; };
+		CBFB588718B9785600A408E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBFB588D18B9785600A408E7 /* EveryonePlaysPokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EveryonePlaysPokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFB588E18B9785600A408E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CBFB589618B9785600A408E7 /* EveryonePlaysPokemonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EveryonePlaysPokemonTests-Info.plist"; sourceTree = "<group>"; };
+		CBFB589818B9785600A408E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBFB589A18B9785600A408E7 /* EveryonePlaysPokemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryonePlaysPokemonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFB586318B9785500A408E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB586C18B9785500A408E7 /* CoreGraphics.framework in Frameworks */,
+				CBFB586E18B9785500A408E7 /* UIKit.framework in Frameworks */,
+				CBFB586A18B9785500A408E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB588A18B9785600A408E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB588F18B9785600A408E7 /* XCTest.framework in Frameworks */,
+				CBFB589118B9785600A408E7 /* UIKit.framework in Frameworks */,
+				CBFB589018B9785600A408E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFB585D18B9785500A408E7 = {
+			isa = PBXGroup;
+			children = (
+				CBFB586F18B9785500A408E7 /* EveryonePlaysPokemon */,
+				CBFB589418B9785600A408E7 /* EveryonePlaysPokemonTests */,
+				CBFB586818B9785500A408E7 /* Frameworks */,
+				CBFB586718B9785500A408E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFB586718B9785500A408E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB586618B9785500A408E7 /* EveryonePlaysPokemon.app */,
+				CBFB588D18B9785600A408E7 /* EveryonePlaysPokemonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFB586818B9785500A408E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB586918B9785500A408E7 /* Foundation.framework */,
+				CBFB586B18B9785500A408E7 /* CoreGraphics.framework */,
+				CBFB586D18B9785500A408E7 /* UIKit.framework */,
+				CBFB588E18B9785600A408E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBFB586F18B9785500A408E7 /* EveryonePlaysPokemon */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB587818B9785600A408E7 /* EPPAppDelegate.h */,
+				CBFB587918B9785600A408E7 /* EPPAppDelegate.m */,
+				CBFB587B18B9785600A408E7 /* Main_iPhone.storyboard */,
+				CBFB587E18B9785600A408E7 /* Main_iPad.storyboard */,
+				CBFB588118B9785600A408E7 /* EPPMainViewController.h */,
+				CBFB588218B9785600A408E7 /* EPPMainViewController.m */,
+				CBFB588418B9785600A408E7 /* EPPFlipsideViewController.h */,
+				CBFB588518B9785600A408E7 /* EPPFlipsideViewController.m */,
+				CBFB588718B9785600A408E7 /* Images.xcassets */,
+				CBFB587018B9785500A408E7 /* Supporting Files */,
+			);
+			path = EveryonePlaysPokemon;
+			sourceTree = "<group>";
+		};
+		CBFB587018B9785500A408E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB587118B9785500A408E7 /* EveryonePlaysPokemon-Info.plist */,
+				CBFB587218B9785600A408E7 /* InfoPlist.strings */,
+				CBFB587518B9785600A408E7 /* main.m */,
+				CBFB587718B9785600A408E7 /* EveryonePlaysPokemon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBFB589418B9785600A408E7 /* EveryonePlaysPokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB589A18B9785600A408E7 /* EveryonePlaysPokemonTests.m */,
+				CBFB589518B9785600A408E7 /* Supporting Files */,
+			);
+			path = EveryonePlaysPokemonTests;
+			sourceTree = "<group>";
+		};
+		CBFB589518B9785600A408E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB589618B9785600A408E7 /* EveryonePlaysPokemonTests-Info.plist */,
+				CBFB589718B9785600A408E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFB586518B9785500A408E7 /* EveryonePlaysPokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFB589E18B9785600A408E7 /* Build configuration list for PBXNativeTarget "EveryonePlaysPokemon" */;
+			buildPhases = (
+				CBFB586218B9785500A408E7 /* Sources */,
+				CBFB586318B9785500A408E7 /* Frameworks */,
+				CBFB586418B9785500A408E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EveryonePlaysPokemon;
+			productName = EveryonePlaysPokemon;
+			productReference = CBFB586618B9785500A408E7 /* EveryonePlaysPokemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBFB588C18B9785600A408E7 /* EveryonePlaysPokemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFB58A118B9785600A408E7 /* Build configuration list for PBXNativeTarget "EveryonePlaysPokemonTests" */;
+			buildPhases = (
+				CBFB588918B9785600A408E7 /* Sources */,
+				CBFB588A18B9785600A408E7 /* Frameworks */,
+				CBFB588B18B9785600A408E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFB589318B9785600A408E7 /* PBXTargetDependency */,
+			);
+			name = EveryonePlaysPokemonTests;
+			productName = EveryonePlaysPokemonTests;
+			productReference = CBFB588D18B9785600A408E7 /* EveryonePlaysPokemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFB585E18B9785500A408E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EPP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jason Berlinsky";
+				TargetAttributes = {
+					CBFB588C18B9785600A408E7 = {
+						TestTargetID = CBFB586518B9785500A408E7;
+					};
+				};
+			};
+			buildConfigurationList = CBFB586118B9785500A408E7 /* Build configuration list for PBXProject "EveryonePlaysPokemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFB585D18B9785500A408E7;
+			productRefGroup = CBFB586718B9785500A408E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFB586518B9785500A408E7 /* EveryonePlaysPokemon */,
+				CBFB588C18B9785600A408E7 /* EveryonePlaysPokemonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFB586418B9785500A408E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB588018B9785600A408E7 /* Main_iPad.storyboard in Resources */,
+				CBFB588818B9785600A408E7 /* Images.xcassets in Resources */,
+				CBFB587D18B9785600A408E7 /* Main_iPhone.storyboard in Resources */,
+				CBFB587418B9785600A408E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB588B18B9785600A408E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB589918B9785600A408E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFB586218B9785500A408E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB587A18B9785600A408E7 /* EPPAppDelegate.m in Sources */,
+				CBFB587618B9785600A408E7 /* main.m in Sources */,
+				CBFB588618B9785600A408E7 /* EPPFlipsideViewController.m in Sources */,
+				CBFB588318B9785600A408E7 /* EPPMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB588918B9785600A408E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB589B18B9785600A408E7 /* EveryonePlaysPokemonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFB589318B9785600A408E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFB586518B9785500A408E7 /* EveryonePlaysPokemon */;
+			targetProxy = CBFB589218B9785600A408E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFB587218B9785600A408E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFB587318B9785600A408E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBFB587B18B9785600A408E7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFB587C18B9785600A408E7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFB587E18B9785600A408E7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFB587F18B9785600A408E7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFB589718B9785600A408E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFB589818B9785600A408E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFB589C18B9785600A408E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFB589D18B9785600A408E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFB589F18B9785600A408E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EveryonePlaysPokemon/EveryonePlaysPokemon-Prefix.pch";
+				INFOPLIST_FILE = "EveryonePlaysPokemon/EveryonePlaysPokemon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBFB58A018B9785600A408E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EveryonePlaysPokemon/EveryonePlaysPokemon-Prefix.pch";
+				INFOPLIST_FILE = "EveryonePlaysPokemon/EveryonePlaysPokemon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBFB58A218B9785600A408E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EveryonePlaysPokemon.app/EveryonePlaysPokemon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EveryonePlaysPokemon/EveryonePlaysPokemon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EveryonePlaysPokemonTests/EveryonePlaysPokemonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CBFB58A318B9785600A408E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EveryonePlaysPokemon.app/EveryonePlaysPokemon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EveryonePlaysPokemon/EveryonePlaysPokemon-Prefix.pch";
+				INFOPLIST_FILE = "EveryonePlaysPokemonTests/EveryonePlaysPokemonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFB586118B9785500A408E7 /* Build configuration list for PBXProject "EveryonePlaysPokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB589C18B9785600A408E7 /* Debug */,
+				CBFB589D18B9785600A408E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFB589E18B9785600A408E7 /* Build configuration list for PBXNativeTarget "EveryonePlaysPokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB589F18B9785600A408E7 /* Debug */,
+				CBFB58A018B9785600A408E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBFB58A118B9785600A408E7 /* Build configuration list for PBXNativeTarget "EveryonePlaysPokemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB58A218B9785600A408E7 /* Debug */,
+				CBFB58A318B9785600A408E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFB585E18B9785500A408E7 /* Project object */;
+}
