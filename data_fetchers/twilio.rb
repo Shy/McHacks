@@ -20,7 +20,7 @@ post '/back_mms' do
   content_type :json
   file_name = "#{rand(99999)}_tmp.png"
   File.open("./GameBoy-Online/generated_images/#{file_name}","wb") do |file|
-    file.write(Base64.decode64(params['canvas_dump']))
+    file.write(Base64.decode64(params['canvas_dump'].gsub('data:image/png;base64,', '')))
   end
   url = "http://everyoneplayspokemon.com:4567/generated_images/#{file_name}"
   recipient_number = params['recipient']
