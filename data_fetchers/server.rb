@@ -1,8 +1,14 @@
 require 'sinatra'
+require 'sinatra/cross_origin'
+
 require 'json'
 
 set :bind, '0.0.0.0'
 set :port, 4567
+
+configure do
+  enable :cross_origin
+end
 
 require_relative './twilio.rb'
 require_relative './sendgrid.rb'
