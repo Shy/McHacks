@@ -353,13 +353,13 @@ function GameBoyEmulatorInitialized() {
 function GameBoyEmulatorPlaying() {
 	return ((gameboy.stopEmulator & 2) == 0);
 }
-function GameBoyKeyDown(key) {
+function GameBoyKeyDown(key, callback) {
 	if (GameBoyEmulatorInitialized() && GameBoyEmulatorPlaying()) {
 		var keycode = matchKey(key);
 		if (keycode >= 0 && keycode < 8) {
 			gameboy.JoyPadEvent(keycode, true);
 			console.log("down\t"+key)
-			setTimeout(function(){GameBoyKeyUp(key)},20);
+			setTimeout(function(){GameBoyKeyUp(key); callback(); },30);
 		}
 	}
 }

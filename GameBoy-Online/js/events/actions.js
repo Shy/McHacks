@@ -3,5 +3,5 @@ var submissions = epp.child('submissions');
 
 submissions.on('child_added', function(submissionSnapshot) {
 	var submission = submissionSnapshot.val();
-	GameBoyKeyDown(submission.action);
+	GameBoyKeyDown(submission.action, function() {});
 });
