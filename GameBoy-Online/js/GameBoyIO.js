@@ -359,7 +359,7 @@ function GameBoyKeyDown(key, callback) {
 		if (keycode >= 0 && keycode < 8) {
 			gameboy.JoyPadEvent(keycode, true);
 			console.log("down\t"+key)
-			setTimeout(function(){GameBoyKeyUp(key); callback(); },30);
+			setTimeout(function(){GameBoyKeyUp(key); if(callback != undefined) { callback(); } },30);
 		}
 	}
 }
