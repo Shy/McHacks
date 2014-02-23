@@ -22,7 +22,7 @@ post '/back_mms' do
   File.open("./GameBoy-Online/generated_images/#{file_name}","wb") do |file|
     file.write(Base64.decode64(params['canvas_dump'].gsub('data:image/png;base64,', '')))
   end
-  url = "http://everyoneplayspokemon.com:4567/generated_images/#{file_name}"
+  url = "http://everyoneplayspokemon.com/generated_images/#{file_name}"
   recipient_number = params['recipient']
   client.account.messages.create(
     from: from,

@@ -32,7 +32,7 @@
     NSString *embedHTML = [NSString stringWithFormat:@"\
                            <html><head>\
                            </head><body style=\"margin:0\">\
-                           <iframe height=\"%f\" width=\"%f\" src=\"http://www.youtube.com/embed/eHWSEk92o-I\"></iframe>\
+                           <iframe height=\"%f\" width=\"%f\" src=\"http://www.youtube.com/embed/O45uXkMRoh8\"></iframe>\
                            </body></html>", width, height];
     UIWebView *videoView = [[UIWebView alloc] initWithFrame: rotated_bounds];
     videoView.backgroundColor = [UIColor clearColor];
@@ -100,7 +100,7 @@
     
     // TODO make sure this is moving in the right direction...
     
-    NSURL *url = [NSURL URLWithString:@"http://everyoneplayspokemon.com:4567"];
+    NSURL *url = [NSURL URLWithString:@"http://everyoneplayspokemon.com"];
     AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:url];
     
     [httpClient postPath:@"/ios" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {

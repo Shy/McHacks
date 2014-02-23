@@ -6,7 +6,7 @@ submissions.on('child_added', function(submissionSnapshot) {
 	GameBoyKeyDown(submission.action, function() {
     if (submission.sender_phone) {
       $.post(
-        'http://everyoneplayspokemon.com:4567/back_mms',
+        'http://everyoneplayspokemon.com/back_mms',
         {
           recipient: submission.sender_phone,
           canvas_dump: document.getElementById("mainCanvas").toDataURL()
