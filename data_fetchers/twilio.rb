@@ -18,17 +18,18 @@ post '/back_mms' do
   response['Access-Control-Allow-Origin'] = '*'
   response['Access-Control-Request-Method'] = '*'
   content_type :json
-  file_name = "#{rand(99999)}_tmp.png"
-  File.open("./GameBoy-Online/generated_images/#{file_name}","wb") do |file|
-    file.write(Base64.decode64(params['canvas_dump'].gsub('data:image/png;base64,', '')))
-  end
-  url = "http://everyoneplayspokemon.com/generated_images/#{file_name}"
-  recipient_number = params['recipient']
-  client.account.messages.create(
-    from: from,
-    to: recipient_number,
-    body: 'Current game state',
-    media_url: url
-  )
+  
+  #file_name = "#{rand(99999)}_tmp.png"
+  #File.open("./GameBoy-Online/generated_images/#{file_name}","wb") do |file|
+  #  file.write(Base64.decode64(params['canvas_dump'].gsub('data:image/png;base64,', '')))
+  #end
+  #url = "http://everyoneplayspokemon.com/generated_images/#{file_name}"
+  #recipient_number = params['recipient']
+  #client.account.messages.create(
+  #  from: from,
+  #  to: recipient_number,
+  #  body: 'Current game state',
+  #  media_url: url
+  #)
   {}.to_json
 end
