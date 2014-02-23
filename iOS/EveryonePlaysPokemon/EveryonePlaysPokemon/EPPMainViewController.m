@@ -88,7 +88,7 @@
 - (void)locationUpdate:(CLLocation *)location fromLocation:(CLLocation *)oldLocation
 {
     double distance = [oldLocation getDistanceFrom: location];
-    //if (distance <= 1) { return; }
+    if (distance <= 1) { return; }
     
     TTTLocationFormatter *locationFormatter = [[TTTLocationFormatter alloc] init];
     NSString *stringDescription = [locationFormatter stringFromDistanceAndBearingFromLocation:oldLocation toLocation: location];

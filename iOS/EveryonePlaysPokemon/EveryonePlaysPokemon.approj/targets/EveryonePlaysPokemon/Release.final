@@ -19,7 +19,9 @@
         "APPLICATION_NAME": "EveryonePlaysPokemon", 
         "FEATURES": [
             "opengles2", 
-            "landscape"
+            "landscape", 
+            "access_coarse_location", 
+            "access_fine_location"
         ], 
         "ICU_CONFIG": "normal", 
         "LONG_VERSION": "1.0", 
