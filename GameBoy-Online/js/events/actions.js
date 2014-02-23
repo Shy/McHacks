@@ -9,7 +9,7 @@ submissions.on('child_added', function(submissionSnapshot) {
         'http://everyoneplayspokemon.com:4567/back_mms',
         {
           recipient: submission.sender_phone,
-          canvas_dump: 'abc'
+          canvas_dump: $("#mainCanvas").toDataURL()
         }
       );
     }
