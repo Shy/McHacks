@@ -1,0 +1,226 @@
+{
+    "assets": [
+        {
+            "asset": "EveryonePlaysPokemonTests/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }
+    ], 
+    "config": {
+        "APPLICATION_IDENTIFIER": "hack.jberlinsky.EveryonePlaysPokemonTests", 
+        "LONG_VERSION": "1", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "EveryonePlaysPokemonTests", 
+            "PRODUCT_NAME": "EveryonePlaysPokemonTests"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreLocation", 
+        "CoreGraphics", 
+        "UIKit", 
+        "Foundation", 
+        "XCTest", 
+        "XCTest", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "EveryonePlaysPokemonTests-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "EveryonePlaysPokemonTests-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "EveryonePlaysPokemonTests-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "EveryonePlaysPokemonTests-project-headers.hmap", 
+            "hmap": {
+                "AFHTTPClient.h": {
+                    "key": "AFHTTPClient.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFHTTPClient.h"
+                }, 
+                "AFHTTPRequestOperation.h": {
+                    "key": "AFHTTPRequestOperation.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFHTTPRequestOperation.h"
+                }, 
+                "AFImageRequestOperation.h": {
+                    "key": "AFImageRequestOperation.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFImageRequestOperation.h"
+                }, 
+                "AFJSONRequestOperation.h": {
+                    "key": "AFJSONRequestOperation.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFJSONRequestOperation.h"
+                }, 
+                "AFNetworkActivityIndicatorManager.h": {
+                    "key": "AFNetworkActivityIndicatorManager.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFNetworkActivityIndicatorManager.h"
+                }, 
+                "AFNetworking.h": {
+                    "key": "AFNetworking.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFNetworking.h"
+                }, 
+                "AFPropertyListRequestOperation.h": {
+                    "key": "AFPropertyListRequestOperation.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFPropertyListRequestOperation.h"
+                }, 
+                "AFURLConnectionOperation.h": {
+                    "key": "AFURLConnectionOperation.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFURLConnectionOperation.h"
+                }, 
+                "AFXMLRequestOperation.h": {
+                    "key": "AFXMLRequestOperation.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "AFXMLRequestOperation.h"
+                }, 
+                "EPPAppDelegate.h": {
+                    "key": "EPPAppDelegate.h", 
+                    "prefix": "EveryonePlaysPokemon/", 
+                    "suffix": "EPPAppDelegate.h"
+                }, 
+                "EPPCoreLocationController.h": {
+                    "key": "EPPCoreLocationController.h", 
+                    "prefix": "EveryonePlaysPokemon/", 
+                    "suffix": "EPPCoreLocationController.h"
+                }, 
+                "EPPFlipsideViewController.h": {
+                    "key": "EPPFlipsideViewController.h", 
+                    "prefix": "EveryonePlaysPokemon/", 
+                    "suffix": "EPPFlipsideViewController.h"
+                }, 
+                "EPPMainViewController.h": {
+                    "key": "EPPMainViewController.h", 
+                    "prefix": "EveryonePlaysPokemon/", 
+                    "suffix": "EPPMainViewController.h"
+                }, 
+                "EveryonePlaysPokemon-Prefix.pch": {
+                    "key": "EveryonePlaysPokemon-Prefix.pch", 
+                    "prefix": "EveryonePlaysPokemon/", 
+                    "suffix": "EveryonePlaysPokemon-Prefix.pch"
+                }, 
+                "TTTAddressFormatter.h": {
+                    "key": "TTTAddressFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTAddressFormatter.h"
+                }, 
+                "TTTArrayFormatter.h": {
+                    "key": "TTTArrayFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTArrayFormatter.h"
+                }, 
+                "TTTColorFormatter.h": {
+                    "key": "TTTColorFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTColorFormatter.h"
+                }, 
+                "TTTLocationFormatter.h": {
+                    "key": "TTTLocationFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTLocationFormatter.h"
+                }, 
+                "TTTOrdinalNumberFormatter.h": {
+                    "key": "TTTOrdinalNumberFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTOrdinalNumberFormatter.h"
+                }, 
+                "TTTTimeIntervalFormatter.h": {
+                    "key": "TTTTimeIntervalFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTTimeIntervalFormatter.h"
+                }, 
+                "TTTURLRequestFormatter.h": {
+                    "key": "TTTURLRequestFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTURLRequestFormatter.h"
+                }, 
+                "TTTUnitOfInformationFormatter.h": {
+                    "key": "TTTUnitOfInformationFormatter.h", 
+                    "prefix": "EveryonePlaysPokemon/FormatterKit/", 
+                    "suffix": "TTTUnitOfInformationFormatter.h"
+                }, 
+                "UIImageView+AFNetworking.h": {
+                    "key": "UIImageView+AFNetworking.h", 
+                    "prefix": "AFNetworking/", 
+                    "suffix": "UIImageView+AFNetworking.h"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./EveryonePlaysPokemonTests/EveryonePlaysPokemonTests-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./EveryonePlaysPokemon/EveryonePlaysPokemon-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "EveryonePlaysPokemonTests/EveryonePlaysPokemonTests.m"
+        }
+    ], 
+    "type": "com.apple.product-type.bundle.unit-test", 
+    "version": "1", 
+    "xcode_project": "EveryonePlaysPokemon.xcodeproj"
+}

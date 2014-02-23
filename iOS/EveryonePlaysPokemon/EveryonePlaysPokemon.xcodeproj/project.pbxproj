@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBCC95FA18B9B4E200FAD099 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95E818B9B4E200FAD099 /* AFHTTPClient.m */; };
+		CBCC95FB18B9B4E200FAD099 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95EA18B9B4E200FAD099 /* AFHTTPRequestOperation.m */; };
+		CBCC95FC18B9B4E200FAD099 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95EC18B9B4E200FAD099 /* AFImageRequestOperation.m */; };
+		CBCC95FD18B9B4E200FAD099 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95EE18B9B4E200FAD099 /* AFJSONRequestOperation.m */; };
+		CBCC95FE18B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95F018B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.m */; };
+		CBCC95FF18B9B4E200FAD099 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95F318B9B4E200FAD099 /* AFPropertyListRequestOperation.m */; };
+		CBCC960018B9B4E200FAD099 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95F518B9B4E200FAD099 /* AFURLConnectionOperation.m */; };
+		CBCC960118B9B4E200FAD099 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95F718B9B4E200FAD099 /* AFXMLRequestOperation.m */; };
+		CBCC960218B9B4E200FAD099 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC95F918B9B4E200FAD099 /* UIImageView+AFNetworking.m */; };
+		CBCC961418B9B54D00FAD099 /* TTTAddressFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC960518B9B54D00FAD099 /* TTTAddressFormatter.m */; };
+		CBCC961518B9B54D00FAD099 /* TTTArrayFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC960718B9B54D00FAD099 /* TTTArrayFormatter.m */; };
+		CBCC961618B9B54D00FAD099 /* TTTColorFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC960918B9B54D00FAD099 /* TTTColorFormatter.m */; };
+		CBCC961718B9B54D00FAD099 /* TTTLocationFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC960B18B9B54D00FAD099 /* TTTLocationFormatter.m */; };
+		CBCC961818B9B54D00FAD099 /* TTTOrdinalNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC960D18B9B54D00FAD099 /* TTTOrdinalNumberFormatter.m */; };
+		CBCC961918B9B54D00FAD099 /* TTTTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC960F18B9B54D00FAD099 /* TTTTimeIntervalFormatter.m */; };
+		CBCC961A18B9B54D00FAD099 /* TTTUnitOfInformationFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC961118B9B54D00FAD099 /* TTTUnitOfInformationFormatter.m */; };
+		CBCC961B18B9B54D00FAD099 /* TTTURLRequestFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCC961318B9B54D00FAD099 /* TTTURLRequestFormatter.m */; };
 		CBFB586A18B9785500A408E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586918B9785500A408E7 /* Foundation.framework */; };
 		CBFB586C18B9785500A408E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586B18B9785500A408E7 /* CoreGraphics.framework */; };
 		CBFB586E18B9785500A408E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586D18B9785500A408E7 /* UIKit.framework */; };
@@ -23,6 +40,8 @@
 		CBFB589118B9785600A408E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB586D18B9785500A408E7 /* UIKit.framework */; };
 		CBFB589918B9785600A408E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBFB589718B9785600A408E7 /* InfoPlist.strings */; };
 		CBFB589B18B9785600A408E7 /* EveryonePlaysPokemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB589A18B9785600A408E7 /* EveryonePlaysPokemonTests.m */; };
+		CBFB58A518B9791B00A408E7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB58A418B9791B00A408E7 /* CoreLocation.framework */; };
+		CBFB58A818B9794200A408E7 /* EPPCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB58A718B9794200A408E7 /* EPPCoreLocationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C223665BDFE4E5F9D3941CA /* libPods-EveryonePlaysPokemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EveryonePlaysPokemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCC95E718B9B4E200FAD099 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		CBCC95E818B9B4E200FAD099 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		CBCC95E918B9B4E200FAD099 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CBCC95EA18B9B4E200FAD099 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CBCC95EB18B9B4E200FAD099 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		CBCC95EC18B9B4E200FAD099 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		CBCC95ED18B9B4E200FAD099 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		CBCC95EE18B9B4E200FAD099 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		CBCC95EF18B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CBCC95F018B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CBCC95F118B9B4E200FAD099 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CBCC95F218B9B4E200FAD099 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		CBCC95F318B9B4E200FAD099 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		CBCC95F418B9B4E200FAD099 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CBCC95F518B9B4E200FAD099 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CBCC95F618B9B4E200FAD099 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		CBCC95F718B9B4E200FAD099 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		CBCC95F818B9B4E200FAD099 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CBCC95F918B9B4E200FAD099 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CBCC960418B9B54D00FAD099 /* TTTAddressFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAddressFormatter.h; sourceTree = "<group>"; };
+		CBCC960518B9B54D00FAD099 /* TTTAddressFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAddressFormatter.m; sourceTree = "<group>"; };
+		CBCC960618B9B54D00FAD099 /* TTTArrayFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTArrayFormatter.h; sourceTree = "<group>"; };
+		CBCC960718B9B54D00FAD099 /* TTTArrayFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTArrayFormatter.m; sourceTree = "<group>"; };
+		CBCC960818B9B54D00FAD099 /* TTTColorFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTColorFormatter.h; sourceTree = "<group>"; };
+		CBCC960918B9B54D00FAD099 /* TTTColorFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTColorFormatter.m; sourceTree = "<group>"; };
+		CBCC960A18B9B54D00FAD099 /* TTTLocationFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTLocationFormatter.h; sourceTree = "<group>"; };
+		CBCC960B18B9B54D00FAD099 /* TTTLocationFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTLocationFormatter.m; sourceTree = "<group>"; };
+		CBCC960C18B9B54D00FAD099 /* TTTOrdinalNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTOrdinalNumberFormatter.h; sourceTree = "<group>"; };
+		CBCC960D18B9B54D00FAD099 /* TTTOrdinalNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTOrdinalNumberFormatter.m; sourceTree = "<group>"; };
+		CBCC960E18B9B54D00FAD099 /* TTTTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTTimeIntervalFormatter.h; sourceTree = "<group>"; };
+		CBCC960F18B9B54D00FAD099 /* TTTTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTTimeIntervalFormatter.m; sourceTree = "<group>"; };
+		CBCC961018B9B54D00FAD099 /* TTTUnitOfInformationFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTUnitOfInformationFormatter.h; sourceTree = "<group>"; };
+		CBCC961118B9B54D00FAD099 /* TTTUnitOfInformationFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTUnitOfInformationFormatter.m; sourceTree = "<group>"; };
+		CBCC961218B9B54D00FAD099 /* TTTURLRequestFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTURLRequestFormatter.h; sourceTree = "<group>"; };
+		CBCC961318B9B54D00FAD099 /* TTTURLRequestFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTURLRequestFormatter.m; sourceTree = "<group>"; };
 		CBFB586618B9785500A408E7 /* EveryonePlaysPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryonePlaysPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFB586918B9785500A408E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBFB586B18B9785500A408E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +113,9 @@
 		CBFB589618B9785600A408E7 /* EveryonePlaysPokemonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EveryonePlaysPokemonTests-Info.plist"; sourceTree = "<group>"; };
 		CBFB589818B9785600A408E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBFB589A18B9785600A408E7 /* EveryonePlaysPokemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryonePlaysPokemonTests.m; sourceTree = "<group>"; };
+		CBFB58A418B9791B00A408E7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CBFB58A618B9794200A408E7 /* EPPCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPCoreLocationController.h; sourceTree = "<group>"; };
+		CBFB58A718B9794200A408E7 /* EPPCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPCoreLocationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFB58A518B9791B00A408E7 /* CoreLocation.framework in Frameworks */,
 				CBFB586C18B9785500A408E7 /* CoreGraphics.framework in Frameworks */,
 				CBFB586E18B9785500A408E7 /* UIKit.framework in Frameworks */,
 				CBFB586A18B9785500A408E7 /* Foundation.framework in Frameworks */,
@@ -84,9 +143,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBCC95E618B9B4E200FAD099 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC95E718B9B4E200FAD099 /* AFHTTPClient.h */,
+				CBCC95E818B9B4E200FAD099 /* AFHTTPClient.m */,
+				CBCC95E918B9B4E200FAD099 /* AFHTTPRequestOperation.h */,
+				CBCC95EA18B9B4E200FAD099 /* AFHTTPRequestOperation.m */,
+				CBCC95EB18B9B4E200FAD099 /* AFImageRequestOperation.h */,
+				CBCC95EC18B9B4E200FAD099 /* AFImageRequestOperation.m */,
+				CBCC95ED18B9B4E200FAD099 /* AFJSONRequestOperation.h */,
+				CBCC95EE18B9B4E200FAD099 /* AFJSONRequestOperation.m */,
+				CBCC95EF18B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.h */,
+				CBCC95F018B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.m */,
+				CBCC95F118B9B4E200FAD099 /* AFNetworking.h */,
+				CBCC95F218B9B4E200FAD099 /* AFPropertyListRequestOperation.h */,
+				CBCC95F318B9B4E200FAD099 /* AFPropertyListRequestOperation.m */,
+				CBCC95F418B9B4E200FAD099 /* AFURLConnectionOperation.h */,
+				CBCC95F518B9B4E200FAD099 /* AFURLConnectionOperation.m */,
+				CBCC95F618B9B4E200FAD099 /* AFXMLRequestOperation.h */,
+				CBCC95F718B9B4E200FAD099 /* AFXMLRequestOperation.m */,
+				CBCC95F818B9B4E200FAD099 /* UIImageView+AFNetworking.h */,
+				CBCC95F918B9B4E200FAD099 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CBCC960318B9B54D00FAD099 /* FormatterKit */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC960418B9B54D00FAD099 /* TTTAddressFormatter.h */,
+				CBCC960518B9B54D00FAD099 /* TTTAddressFormatter.m */,
+				CBCC960618B9B54D00FAD099 /* TTTArrayFormatter.h */,
+				CBCC960718B9B54D00FAD099 /* TTTArrayFormatter.m */,
+				CBCC960818B9B54D00FAD099 /* TTTColorFormatter.h */,
+				CBCC960918B9B54D00FAD099 /* TTTColorFormatter.m */,
+				CBCC960A18B9B54D00FAD099 /* TTTLocationFormatter.h */,
+				CBCC960B18B9B54D00FAD099 /* TTTLocationFormatter.m */,
+				CBCC960C18B9B54D00FAD099 /* TTTOrdinalNumberFormatter.h */,
+				CBCC960D18B9B54D00FAD099 /* TTTOrdinalNumberFormatter.m */,
+				CBCC960E18B9B54D00FAD099 /* TTTTimeIntervalFormatter.h */,
+				CBCC960F18B9B54D00FAD099 /* TTTTimeIntervalFormatter.m */,
+				CBCC961018B9B54D00FAD099 /* TTTUnitOfInformationFormatter.h */,
+				CBCC961118B9B54D00FAD099 /* TTTUnitOfInformationFormatter.m */,
+				CBCC961218B9B54D00FAD099 /* TTTURLRequestFormatter.h */,
+				CBCC961318B9B54D00FAD099 /* TTTURLRequestFormatter.m */,
+			);
+			name = FormatterKit;
+			path = EveryonePlaysPokemon/FormatterKit;
+			sourceTree = "<group>";
+		};
 		CBFB585D18B9785500A408E7 = {
 			isa = PBXGroup;
 			children = (
+				CBCC960318B9B54D00FAD099 /* FormatterKit */,
+				CBCC95E618B9B4E200FAD099 /* AFNetworking */,
 				CBFB586F18B9785500A408E7 /* EveryonePlaysPokemon */,
 				CBFB589418B9785600A408E7 /* EveryonePlaysPokemonTests */,
 				CBFB586818B9785500A408E7 /* Frameworks */,
@@ -106,10 +217,12 @@
 		CBFB586818B9785500A408E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBFB58A418B9791B00A408E7 /* CoreLocation.framework */,
 				CBFB586918B9785500A408E7 /* Foundation.framework */,
 				CBFB586B18B9785500A408E7 /* CoreGraphics.framework */,
 				CBFB586D18B9785500A408E7 /* UIKit.framework */,
 				CBFB588E18B9785600A408E7 /* XCTest.framework */,
+				6C223665BDFE4E5F9D3941CA /* libPods-EveryonePlaysPokemon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +251,8 @@
 				CBFB587218B9785600A408E7 /* InfoPlist.strings */,
 				CBFB587518B9785600A408E7 /* main.m */,
 				CBFB587718B9785600A408E7 /* EveryonePlaysPokemon-Prefix.pch */,
+				CBFB58A618B9794200A408E7 /* EPPCoreLocationController.h */,
+				CBFB58A718B9794200A408E7 /* EPPCoreLocationController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBFB589E18B9785600A408E7 /* Build configuration list for PBXNativeTarget "EveryonePlaysPokemon" */;
 			buildPhases = (
+				BD7C99A727674AC2AFFCB3FA /* Check Pods Manifest.lock */,
 				CBFB586218B9785500A408E7 /* Sources */,
 				CBFB586318B9785500A408E7 /* Frameworks */,
 				CBFB586418B9785500A408E7 /* Resources */,
@@ -254,15 +370,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD7C99A727674AC2AFFCB3FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBFB586218B9785500A408E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCC95FC18B9B4E200FAD099 /* AFImageRequestOperation.m in Sources */,
 				CBFB587A18B9785600A408E7 /* EPPAppDelegate.m in Sources */,
 				CBFB587618B9785600A408E7 /* main.m in Sources */,
+				CBCC960118B9B4E200FAD099 /* AFXMLRequestOperation.m in Sources */,
 				CBFB588618B9785600A408E7 /* EPPFlipsideViewController.m in Sources */,
+				CBCC960218B9B4E200FAD099 /* UIImageView+AFNetworking.m in Sources */,
+				CBCC961718B9B54D00FAD099 /* TTTLocationFormatter.m in Sources */,
+				CBCC960018B9B4E200FAD099 /* AFURLConnectionOperation.m in Sources */,
+				CBCC95FE18B9B4E200FAD099 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CBFB58A818B9794200A408E7 /* EPPCoreLocationController.m in Sources */,
+				CBCC95FD18B9B4E200FAD099 /* AFJSONRequestOperation.m in Sources */,
 				CBFB588318B9785600A408E7 /* EPPMainViewController.m in Sources */,
+				CBCC961618B9B54D00FAD099 /* TTTColorFormatter.m in Sources */,
+				CBCC961B18B9B54D00FAD099 /* TTTURLRequestFormatter.m in Sources */,
+				CBCC95FF18B9B4E200FAD099 /* AFPropertyListRequestOperation.m in Sources */,
+				CBCC961418B9B54D00FAD099 /* TTTAddressFormatter.m in Sources */,
+				CBCC961518B9B54D00FAD099 /* TTTArrayFormatter.m in Sources */,
+				CBCC961A18B9B54D00FAD099 /* TTTUnitOfInformationFormatter.m in Sources */,
+				CBCC95FA18B9B4E200FAD099 /* AFHTTPClient.m in Sources */,
+				CBCC961918B9B54D00FAD099 /* TTTTimeIntervalFormatter.m in Sources */,
+				CBCC95FB18B9B4E200FAD099 /* AFHTTPRequestOperation.m in Sources */,
+				CBCC961818B9B54D00FAD099 /* TTTOrdinalNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +633,7 @@
 				CBFB58A018B9785600A408E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBFB58A118B9785600A408E7 /* Build configuration list for PBXNativeTarget "EveryonePlaysPokemonTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +642,7 @@
 				CBFB58A318B9785600A408E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

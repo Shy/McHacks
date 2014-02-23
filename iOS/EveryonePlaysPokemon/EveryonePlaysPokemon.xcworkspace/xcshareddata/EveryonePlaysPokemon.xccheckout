@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>87775982-FB82-4544-AAED-33A9ACC30EA7</string>
+	<string>AE6A58A4-09BB-4B71-9A88-2579972F7570</string>
 	<key>IDESourceControlProjectName</key>
 	<string>EveryonePlaysPokemon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EFCA1804-C7D8-4549-98A3-E56151EFA07C</key>
+		<key>504415A8-9F27-499C-AAA3-1D4A77799DC2</key>
 		<string>ssh://github.com/Shy/McHacks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/EveryonePlaysPokemon/EveryonePlaysPokemon.xcodeproj/project.xcworkspace</string>
+	<string>iOS/EveryonePlaysPokemon/EveryonePlaysPokemon.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EFCA1804-C7D8-4549-98A3-E56151EFA07C</key>
-		<string>../../../..</string>
+		<key>504415A8-9F27-499C-AAA3-1D4A77799DC2</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/Shy/McHacks.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EFCA1804-C7D8-4549-98A3-E56151EFA07C</string>
+	<string>504415A8-9F27-499C-AAA3-1D4A77799DC2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EFCA1804-C7D8-4549-98A3-E56151EFA07C</string>
+			<string>504415A8-9F27-499C-AAA3-1D4A77799DC2</string>
 			<key>IDESourceControlWCCName</key>
-			<string>EveryonePlaysPokemon</string>
+			<string>McHacks</string>
 		</dict>
 	</array>
 </dict>
