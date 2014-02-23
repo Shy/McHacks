@@ -7,3 +7,4 @@ gem 'redis'
 gem 'foreman'
 gem "sinatra-cross_origin"
 gem 'twilio-ruby'
+gem 'mail'
