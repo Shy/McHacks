@@ -16,6 +16,7 @@ end
 # Send back an MMS of the game state when possible
 post '/back_mms' do
   response['Access-Control-Allow-Origin'] = '*'
+  content_type :json
   recipient_number = params['recipient']
   client.account.messages.create(
     from: from,
