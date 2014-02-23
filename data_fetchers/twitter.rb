@@ -1,8 +1,8 @@
-require 'rubygems'
-require 'redis'
-require 'json'
-
-redis = Redis.new(timeout: 0)
-
-list = redis.get('tweets')
-puts list
+post '/twitter' do
+  puts params.inspect
+  puts "======="
+  puts request.inspect
+  if params == {}
+    { success: true }.to_json
+  end
+end

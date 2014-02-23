@@ -6,3 +6,4 @@ set :port, 4567
 
 require_relative './twilio.rb'
 require_relative './sendgrid.rb'
+require_relative './twitter.rb'
