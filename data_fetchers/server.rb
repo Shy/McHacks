@@ -10,6 +10,7 @@ configure do
   enable :cross_origin
 end
 
+require_relative './static.rb'
 require_relative './twilio.rb'
 require_relative './sendgrid.rb'
 require_relative './twitter.rb'
